@@ -1,0 +1,27 @@
+{
+  "name": "tutorial-playwright",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://applitools.com",
+  "author": {
+    "name": "Applitools Team",
+    "email": "team@applitools.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/applitools/tutorial-playwright.git"
+  },
+  "bugs": {
+    "url": "https://github.com/applitools/tutorial-playwright/issues"
+  },
+  "dependencies": {},
+  "scripts": {
+    "test": "playwright test"
+  },
+  "license": "MIT",
+  "devDependencies": {
+	"@applitools/eyes-playwright": "^1.25.3",
+	"@playwright/test": "^1.39.0",
+	"playwright": "^1.39.0"
+  }
+}
